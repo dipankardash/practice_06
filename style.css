@@ -1,0 +1,11 @@
+.box{
+    width: 100px;
+  height: 100px;
+  background: white;
+  position: relative;
+  animation: mymove 5s;
+  animation-fill-mode: forwards;
+}
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 250px; background-color: cyan;}
